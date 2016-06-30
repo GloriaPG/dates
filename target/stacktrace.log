@@ -1,0 +1,429 @@
+2016-06-30 00:38:42,534 [FileSystemWatcher: files=#74 cl=java.net.URLClassLoader@4996c99] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'instanceControllerTagLibraryApi' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:60)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:172)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
+	at org.codehaus.groovy.grails.plugins.web.GroovyPagesGrailsPlugin$_closure5.doCall(GroovyPagesGrailsPlugin.groovy:353)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1432)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1210)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1123)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1019)
+	at groovy.lang.Closure.call(Closure.java:426)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.informObservers(DefaultGrailsPluginManager.java:242)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:732)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$2.run(GrailsProjectWatcher.java:246)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.firePendingClassChangeEvents(GrailsProjectWatcher.java:107)
+	at org.codehaus.groovy.grails.cli.agent.GrailsPluginManagerReloadPlugin.reloadEvent(GrailsPluginManagerReloadPlugin.java:42)
+	at org.springsource.loaded.TypeRegistry.fireReloadEvent(TypeRegistry.java:2021)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:444)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:1013)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:104)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:251)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:235)
+	at java.lang.Thread.run(Thread.java:745)
+2016-06-30 00:38:42,536 [FileSystemWatcher: files=#74 cl=java.net.URLClassLoader@4996c99] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'instanceControllerTagLibraryApi' on null object
+	at java.lang.Thread.run(Thread.java:745)
+2016-06-30 00:38:42,536 [FileSystemWatcher: files=#74 cl=java.net.URLClassLoader@4996c99] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'instanceControllerTagLibraryApi' on null object
+	at java.lang.Thread.run(Thread.java:745)
+2016-06-30 00:38:42,537 [FileSystemWatcher: files=#74 cl=java.net.URLClassLoader@4996c99] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'instanceControllerTagLibraryApi' on null object
+	at java.lang.Thread.run(Thread.java:745)
+2016-06-30 00:59:53,963 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: especialista for class: BootStrap
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:53)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.setGroovyObjectProperty(ScriptBytecodeAdapter.java:534)
+	at BootStrap$_closure1.doCall(BootStrap.groovy:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1426)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1210)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1123)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1019)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1084)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1123)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1019)
+	at groovy.lang.Closure.call(Closure.java:426)
+	at groovy.lang.Closure.call(Closure.java:420)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at org.codehaus.groovy.grails.commons.DefaultGrailsBootstrapClass.callInit(DefaultGrailsBootstrapClass.java:60)
+	at org.codehaus.groovy.grails.web.context.GrailsConfigUtils.executeGrailsBootstraps(GrailsConfigUtils.java:78)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoaderListener.initWebApplicationContext(GrailsContextLoaderListener.java:110)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4992)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5490)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1565)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-06-30 00:59:53,985 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: especialista for class: BootStrap
+	at BootStrap$_closure1.doCall(BootStrap.groovy:13)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-06-30 00:59:53,986 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: especialista for class: BootStrap
+	at BootStrap$_closure1.doCall(BootStrap.groovy:13)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-06-30 00:59:53,987 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: especialista for class: BootStrap
+	at BootStrap$_closure1.doCall(BootStrap.groovy:13)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-06-30 00:59:53,987 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: especialista for class: BootStrap
+	at BootStrap$_closure1.doCall(BootStrap.groovy:13)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-06-30 00:59:53,988 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: especialista for class: BootStrap
+	at BootStrap$_closure1.doCall(BootStrap.groovy:13)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-06-30 01:01:56,395 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'dates.Cliente' on field 'email': rejected value [null]; codes [dates.Cliente.email.nullable.error.dates.Cliente.email,dates.Cliente.email.nullable.error.email,dates.Cliente.email.nullable.error.java.lang.String,dates.Cliente.email.nullable.error,cliente.email.nullable.error.dates.Cliente.email,cliente.email.nullable.error.email,cliente.email.nullable.error.java.lang.String,cliente.email.nullable.error,dates.Cliente.email.nullable.dates.Cliente.email,dates.Cliente.email.nullable.email,dates.Cliente.email.nullable.java.lang.String,dates.Cliente.email.nullable,cliente.email.nullable.dates.Cliente.email,cliente.email.nullable.email,cliente.email.nullable.java.lang.String,cliente.email.nullable,nullable.dates.Cliente.email,nullable.email,nullable.java.lang.String,nullable]; arguments [email,class dates.Cliente]; default message [La propiedad [{0}] de la clase [{1}] no puede ser nulo]
+- Field error in object 'dates.Cliente' on field 'apellidos': rejected value [null]; codes [dates.Cliente.apellidos.nullable.error.dates.Cliente.apellidos,dates.Cliente.apellidos.nullable.error.apellidos,dates.Cliente.apellidos.nullable.error.java.lang.String,dates.Cliente.apellidos.nullable.error,cliente.apellidos.nullable.error.dates.Cliente.apellidos,cliente.apellidos.nullable.error.apellidos,cliente.apellidos.nullable.error.java.lang.String,cliente.apellidos.nullable.error,dates.Cliente.apellidos.nullable.dates.Cliente.apellidos,dates.Cliente.apellidos.nullable.apellidos,dates.Cliente.apellidos.nullable.java.lang.String,dates.Cliente.apellidos.nullable,cliente.apellidos.nullable.dates.Cliente.apellidos,cliente.apellidos.nullable.apellidos,cliente.apellidos.nullable.java.lang.String,cliente.apellidos.nullable,nullable.dates.Cliente.apellidos,nullable.apellidos,nullable.java.lang.String,nullable]; arguments [apellidos,class dates.Cliente]; default message [La propiedad [{0}] de la clase [{1}] no puede ser nulo]
+
+	at org.codehaus.groovy.grails.orm.hibernate.metaclass.AbstractSavePersistentMethod.doInvokeInternal(AbstractSavePersistentMethod.java:190)
+	at org.codehaus.groovy.grails.orm.hibernate.metaclass.AbstractDynamicPersistentMethod.invoke(AbstractDynamicPersistentMethod.java:69)
+	at org.codehaus.groovy.grails.orm.hibernate.HibernateGormInstanceApi.save(HibernateGormInstanceApi.groovy:196)
+	at dates.Cliente.save(Cliente.groovy)
+	at dates.Cliente$save.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at BootStrap$_closure1.doCall(BootStrap.groovy:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1426)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1210)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1123)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1019)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1084)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1123)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1019)
+	at groovy.lang.Closure.call(Closure.java:426)
+	at groovy.lang.Closure.call(Closure.java:420)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at org.codehaus.groovy.grails.commons.DefaultGrailsBootstrapClass.callInit(DefaultGrailsBootstrapClass.java:60)
+	at org.codehaus.groovy.grails.web.context.GrailsConfigUtils.executeGrailsBootstraps(GrailsConfigUtils.java:78)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoaderListener.initWebApplicationContext(GrailsContextLoaderListener.java:110)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4992)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5490)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1565)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-06-30 01:01:56,469 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'dates.Cliente' on field 'email': rejected value [null]; codes [dates.Cliente.email.nullable.error.dates.Cliente.email,dates.Cliente.email.nullable.error.email,dates.Cliente.email.nullable.error.java.lang.String,dates.Cliente.email.nullable.error,cliente.email.nullable.error.dates.Cliente.email,cliente.email.nullable.error.email,cliente.email.nullable.error.java.lang.String,cliente.email.nullable.error,dates.Cliente.email.nullable.dates.Cliente.email,dates.Cliente.email.nullable.email,dates.Cliente.email.nullable.java.lang.String,dates.Cliente.email.nullable,cliente.email.nullable.dates.Cliente.email,cliente.email.nullable.email,cliente.email.nullable.java.lang.String,cliente.email.nullable,nullable.dates.Cliente.email,nullable.email,nullable.java.lang.String,nullable]; arguments [email,class dates.Cliente]; default message [La propiedad [{0}] de la clase [{1}] no puede ser nulo]
+- Field error in object 'dates.Cliente' on field 'apellidos': rejected value [null]; codes [dates.Cliente.apellidos.nullable.error.dates.Cliente.apellidos,dates.Cliente.apellidos.nullable.error.apellidos,dates.Cliente.apellidos.nullable.error.java.lang.String,dates.Cliente.apellidos.nullable.error,cliente.apellidos.nullable.error.dates.Cliente.apellidos,cliente.apellidos.nullable.error.apellidos,cliente.apellidos.nullable.error.java.lang.String,cliente.apellidos.nullable.error,dates.Cliente.apellidos.nullable.dates.Cliente.apellidos,dates.Cliente.apellidos.nullable.apellidos,dates.Cliente.apellidos.nullable.java.lang.String,dates.Cliente.apellidos.nullable,cliente.apellidos.nullable.dates.Cliente.apellidos,cliente.apellidos.nullable.apellidos,cliente.apellidos.nullable.java.lang.String,cliente.apellidos.nullable,nullable.dates.Cliente.apellidos,nullable.apellidos,nullable.java.lang.String,nullable]; arguments [apellidos,class dates.Cliente]; default message [La propiedad [{0}] de la clase [{1}] no puede ser nulo]
+
+	at BootStrap$_closure1.doCall(BootStrap.groovy:20)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-06-30 01:01:56,473 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'dates.Cliente' on field 'email': rejected value [null]; codes [dates.Cliente.email.nullable.error.dates.Cliente.email,dates.Cliente.email.nullable.error.email,dates.Cliente.email.nullable.error.java.lang.String,dates.Cliente.email.nullable.error,cliente.email.nullable.error.dates.Cliente.email,cliente.email.nullable.error.email,cliente.email.nullable.error.java.lang.String,cliente.email.nullable.error,dates.Cliente.email.nullable.dates.Cliente.email,dates.Cliente.email.nullable.email,dates.Cliente.email.nullable.java.lang.String,dates.Cliente.email.nullable,cliente.email.nullable.dates.Cliente.email,cliente.email.nullable.email,cliente.email.nullable.java.lang.String,cliente.email.nullable,nullable.dates.Cliente.email,nullable.email,nullable.java.lang.String,nullable]; arguments [email,class dates.Cliente]; default message [La propiedad [{0}] de la clase [{1}] no puede ser nulo]
+- Field error in object 'dates.Cliente' on field 'apellidos': rejected value [null]; codes [dates.Cliente.apellidos.nullable.error.dates.Cliente.apellidos,dates.Cliente.apellidos.nullable.error.apellidos,dates.Cliente.apellidos.nullable.error.java.lang.String,dates.Cliente.apellidos.nullable.error,cliente.apellidos.nullable.error.dates.Cliente.apellidos,cliente.apellidos.nullable.error.apellidos,cliente.apellidos.nullable.error.java.lang.String,cliente.apellidos.nullable.error,dates.Cliente.apellidos.nullable.dates.Cliente.apellidos,dates.Cliente.apellidos.nullable.apellidos,dates.Cliente.apellidos.nullable.java.lang.String,dates.Cliente.apellidos.nullable,cliente.apellidos.nullable.dates.Cliente.apellidos,cliente.apellidos.nullable.apellidos,cliente.apellidos.nullable.java.lang.String,cliente.apellidos.nullable,nullable.dates.Cliente.apellidos,nullable.apellidos,nullable.java.lang.String,nullable]; arguments [apellidos,class dates.Cliente]; default message [La propiedad [{0}] de la clase [{1}] no puede ser nulo]
+
+	at BootStrap$_closure1.doCall(BootStrap.groovy:20)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-06-30 01:01:56,473 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'dates.Cliente' on field 'email': rejected value [null]; codes [dates.Cliente.email.nullable.error.dates.Cliente.email,dates.Cliente.email.nullable.error.email,dates.Cliente.email.nullable.error.java.lang.String,dates.Cliente.email.nullable.error,cliente.email.nullable.error.dates.Cliente.email,cliente.email.nullable.error.email,cliente.email.nullable.error.java.lang.String,cliente.email.nullable.error,dates.Cliente.email.nullable.dates.Cliente.email,dates.Cliente.email.nullable.email,dates.Cliente.email.nullable.java.lang.String,dates.Cliente.email.nullable,cliente.email.nullable.dates.Cliente.email,cliente.email.nullable.email,cliente.email.nullable.java.lang.String,cliente.email.nullable,nullable.dates.Cliente.email,nullable.email,nullable.java.lang.String,nullable]; arguments [email,class dates.Cliente]; default message [La propiedad [{0}] de la clase [{1}] no puede ser nulo]
+- Field error in object 'dates.Cliente' on field 'apellidos': rejected value [null]; codes [dates.Cliente.apellidos.nullable.error.dates.Cliente.apellidos,dates.Cliente.apellidos.nullable.error.apellidos,dates.Cliente.apellidos.nullable.error.java.lang.String,dates.Cliente.apellidos.nullable.error,cliente.apellidos.nullable.error.dates.Cliente.apellidos,cliente.apellidos.nullable.error.apellidos,cliente.apellidos.nullable.error.java.lang.String,cliente.apellidos.nullable.error,dates.Cliente.apellidos.nullable.dates.Cliente.apellidos,dates.Cliente.apellidos.nullable.apellidos,dates.Cliente.apellidos.nullable.java.lang.String,dates.Cliente.apellidos.nullable,cliente.apellidos.nullable.dates.Cliente.apellidos,cliente.apellidos.nullable.apellidos,cliente.apellidos.nullable.java.lang.String,cliente.apellidos.nullable,nullable.dates.Cliente.apellidos,nullable.apellidos,nullable.java.lang.String,nullable]; arguments [apellidos,class dates.Cliente]; default message [La propiedad [{0}] de la clase [{1}] no puede ser nulo]
+
+	at BootStrap$_closure1.doCall(BootStrap.groovy:20)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-06-30 01:01:56,473 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'dates.Cliente' on field 'email': rejected value [null]; codes [dates.Cliente.email.nullable.error.dates.Cliente.email,dates.Cliente.email.nullable.error.email,dates.Cliente.email.nullable.error.java.lang.String,dates.Cliente.email.nullable.error,cliente.email.nullable.error.dates.Cliente.email,cliente.email.nullable.error.email,cliente.email.nullable.error.java.lang.String,cliente.email.nullable.error,dates.Cliente.email.nullable.dates.Cliente.email,dates.Cliente.email.nullable.email,dates.Cliente.email.nullable.java.lang.String,dates.Cliente.email.nullable,cliente.email.nullable.dates.Cliente.email,cliente.email.nullable.email,cliente.email.nullable.java.lang.String,cliente.email.nullable,nullable.dates.Cliente.email,nullable.email,nullable.java.lang.String,nullable]; arguments [email,class dates.Cliente]; default message [La propiedad [{0}] de la clase [{1}] no puede ser nulo]
+- Field error in object 'dates.Cliente' on field 'apellidos': rejected value [null]; codes [dates.Cliente.apellidos.nullable.error.dates.Cliente.apellidos,dates.Cliente.apellidos.nullable.error.apellidos,dates.Cliente.apellidos.nullable.error.java.lang.String,dates.Cliente.apellidos.nullable.error,cliente.apellidos.nullable.error.dates.Cliente.apellidos,cliente.apellidos.nullable.error.apellidos,cliente.apellidos.nullable.error.java.lang.String,cliente.apellidos.nullable.error,dates.Cliente.apellidos.nullable.dates.Cliente.apellidos,dates.Cliente.apellidos.nullable.apellidos,dates.Cliente.apellidos.nullable.java.lang.String,dates.Cliente.apellidos.nullable,cliente.apellidos.nullable.dates.Cliente.apellidos,cliente.apellidos.nullable.apellidos,cliente.apellidos.nullable.java.lang.String,cliente.apellidos.nullable,nullable.dates.Cliente.apellidos,nullable.apellidos,nullable.java.lang.String,nullable]; arguments [apellidos,class dates.Cliente]; default message [La propiedad [{0}] de la clase [{1}] no puede ser nulo]
+
+	at BootStrap$_closure1.doCall(BootStrap.groovy:20)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-06-30 01:01:56,474 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'dates.Cliente' on field 'email': rejected value [null]; codes [dates.Cliente.email.nullable.error.dates.Cliente.email,dates.Cliente.email.nullable.error.email,dates.Cliente.email.nullable.error.java.lang.String,dates.Cliente.email.nullable.error,cliente.email.nullable.error.dates.Cliente.email,cliente.email.nullable.error.email,cliente.email.nullable.error.java.lang.String,cliente.email.nullable.error,dates.Cliente.email.nullable.dates.Cliente.email,dates.Cliente.email.nullable.email,dates.Cliente.email.nullable.java.lang.String,dates.Cliente.email.nullable,cliente.email.nullable.dates.Cliente.email,cliente.email.nullable.email,cliente.email.nullable.java.lang.String,cliente.email.nullable,nullable.dates.Cliente.email,nullable.email,nullable.java.lang.String,nullable]; arguments [email,class dates.Cliente]; default message [La propiedad [{0}] de la clase [{1}] no puede ser nulo]
+- Field error in object 'dates.Cliente' on field 'apellidos': rejected value [null]; codes [dates.Cliente.apellidos.nullable.error.dates.Cliente.apellidos,dates.Cliente.apellidos.nullable.error.apellidos,dates.Cliente.apellidos.nullable.error.java.lang.String,dates.Cliente.apellidos.nullable.error,cliente.apellidos.nullable.error.dates.Cliente.apellidos,cliente.apellidos.nullable.error.apellidos,cliente.apellidos.nullable.error.java.lang.String,cliente.apellidos.nullable.error,dates.Cliente.apellidos.nullable.dates.Cliente.apellidos,dates.Cliente.apellidos.nullable.apellidos,dates.Cliente.apellidos.nullable.java.lang.String,dates.Cliente.apellidos.nullable,cliente.apellidos.nullable.dates.Cliente.apellidos,cliente.apellidos.nullable.apellidos,cliente.apellidos.nullable.java.lang.String,cliente.apellidos.nullable,nullable.dates.Cliente.apellidos,nullable.apellidos,nullable.java.lang.String,nullable]; arguments [apellidos,class dates.Cliente]; default message [La propiedad [{0}] de la clase [{1}] no puede ser nulo]
+
+	at BootStrap$_closure1.doCall(BootStrap.groovy:20)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-06-30 01:05:46,073 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'dates.Cliente' on field 'apellidos': rejected value [null]; codes [dates.Cliente.apellidos.nullable.error.dates.Cliente.apellidos,dates.Cliente.apellidos.nullable.error.apellidos,dates.Cliente.apellidos.nullable.error.java.lang.String,dates.Cliente.apellidos.nullable.error,cliente.apellidos.nullable.error.dates.Cliente.apellidos,cliente.apellidos.nullable.error.apellidos,cliente.apellidos.nullable.error.java.lang.String,cliente.apellidos.nullable.error,dates.Cliente.apellidos.nullable.dates.Cliente.apellidos,dates.Cliente.apellidos.nullable.apellidos,dates.Cliente.apellidos.nullable.java.lang.String,dates.Cliente.apellidos.nullable,cliente.apellidos.nullable.dates.Cliente.apellidos,cliente.apellidos.nullable.apellidos,cliente.apellidos.nullable.java.lang.String,cliente.apellidos.nullable,nullable.dates.Cliente.apellidos,nullable.apellidos,nullable.java.lang.String,nullable]; arguments [apellidos,class dates.Cliente]; default message [La propiedad [{0}] de la clase [{1}] no puede ser nulo]
+
+	at org.codehaus.groovy.grails.orm.hibernate.metaclass.AbstractSavePersistentMethod.doInvokeInternal(AbstractSavePersistentMethod.java:190)
+	at org.codehaus.groovy.grails.orm.hibernate.metaclass.AbstractDynamicPersistentMethod.invoke(AbstractDynamicPersistentMethod.java:69)
+	at org.codehaus.groovy.grails.orm.hibernate.HibernateGormInstanceApi.save(HibernateGormInstanceApi.groovy:196)
+	at dates.Cliente.save(Cliente.groovy)
+	at dates.Cliente$save.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at BootStrap$_closure1.doCall(BootStrap.groovy:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1426)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1210)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1123)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1019)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1084)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1123)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1019)
+	at groovy.lang.Closure.call(Closure.java:426)
+	at groovy.lang.Closure.call(Closure.java:420)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at org.codehaus.groovy.grails.commons.DefaultGrailsBootstrapClass.callInit(DefaultGrailsBootstrapClass.java:60)
+	at org.codehaus.groovy.grails.web.context.GrailsConfigUtils.executeGrailsBootstraps(GrailsConfigUtils.java:78)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoaderListener.initWebApplicationContext(GrailsContextLoaderListener.java:110)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4992)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5490)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1565)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-06-30 01:05:46,078 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'dates.Cliente' on field 'apellidos': rejected value [null]; codes [dates.Cliente.apellidos.nullable.error.dates.Cliente.apellidos,dates.Cliente.apellidos.nullable.error.apellidos,dates.Cliente.apellidos.nullable.error.java.lang.String,dates.Cliente.apellidos.nullable.error,cliente.apellidos.nullable.error.dates.Cliente.apellidos,cliente.apellidos.nullable.error.apellidos,cliente.apellidos.nullable.error.java.lang.String,cliente.apellidos.nullable.error,dates.Cliente.apellidos.nullable.dates.Cliente.apellidos,dates.Cliente.apellidos.nullable.apellidos,dates.Cliente.apellidos.nullable.java.lang.String,dates.Cliente.apellidos.nullable,cliente.apellidos.nullable.dates.Cliente.apellidos,cliente.apellidos.nullable.apellidos,cliente.apellidos.nullable.java.lang.String,cliente.apellidos.nullable,nullable.dates.Cliente.apellidos,nullable.apellidos,nullable.java.lang.String,nullable]; arguments [apellidos,class dates.Cliente]; default message [La propiedad [{0}] de la clase [{1}] no puede ser nulo]
+
+	at BootStrap$_closure1.doCall(BootStrap.groovy:20)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-06-30 01:05:46,079 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'dates.Cliente' on field 'apellidos': rejected value [null]; codes [dates.Cliente.apellidos.nullable.error.dates.Cliente.apellidos,dates.Cliente.apellidos.nullable.error.apellidos,dates.Cliente.apellidos.nullable.error.java.lang.String,dates.Cliente.apellidos.nullable.error,cliente.apellidos.nullable.error.dates.Cliente.apellidos,cliente.apellidos.nullable.error.apellidos,cliente.apellidos.nullable.error.java.lang.String,cliente.apellidos.nullable.error,dates.Cliente.apellidos.nullable.dates.Cliente.apellidos,dates.Cliente.apellidos.nullable.apellidos,dates.Cliente.apellidos.nullable.java.lang.String,dates.Cliente.apellidos.nullable,cliente.apellidos.nullable.dates.Cliente.apellidos,cliente.apellidos.nullable.apellidos,cliente.apellidos.nullable.java.lang.String,cliente.apellidos.nullable,nullable.dates.Cliente.apellidos,nullable.apellidos,nullable.java.lang.String,nullable]; arguments [apellidos,class dates.Cliente]; default message [La propiedad [{0}] de la clase [{1}] no puede ser nulo]
+
+	at BootStrap$_closure1.doCall(BootStrap.groovy:20)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-06-30 01:05:46,079 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'dates.Cliente' on field 'apellidos': rejected value [null]; codes [dates.Cliente.apellidos.nullable.error.dates.Cliente.apellidos,dates.Cliente.apellidos.nullable.error.apellidos,dates.Cliente.apellidos.nullable.error.java.lang.String,dates.Cliente.apellidos.nullable.error,cliente.apellidos.nullable.error.dates.Cliente.apellidos,cliente.apellidos.nullable.error.apellidos,cliente.apellidos.nullable.error.java.lang.String,cliente.apellidos.nullable.error,dates.Cliente.apellidos.nullable.dates.Cliente.apellidos,dates.Cliente.apellidos.nullable.apellidos,dates.Cliente.apellidos.nullable.java.lang.String,dates.Cliente.apellidos.nullable,cliente.apellidos.nullable.dates.Cliente.apellidos,cliente.apellidos.nullable.apellidos,cliente.apellidos.nullable.java.lang.String,cliente.apellidos.nullable,nullable.dates.Cliente.apellidos,nullable.apellidos,nullable.java.lang.String,nullable]; arguments [apellidos,class dates.Cliente]; default message [La propiedad [{0}] de la clase [{1}] no puede ser nulo]
+
+	at BootStrap$_closure1.doCall(BootStrap.groovy:20)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-06-30 01:05:46,080 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'dates.Cliente' on field 'apellidos': rejected value [null]; codes [dates.Cliente.apellidos.nullable.error.dates.Cliente.apellidos,dates.Cliente.apellidos.nullable.error.apellidos,dates.Cliente.apellidos.nullable.error.java.lang.String,dates.Cliente.apellidos.nullable.error,cliente.apellidos.nullable.error.dates.Cliente.apellidos,cliente.apellidos.nullable.error.apellidos,cliente.apellidos.nullable.error.java.lang.String,cliente.apellidos.nullable.error,dates.Cliente.apellidos.nullable.dates.Cliente.apellidos,dates.Cliente.apellidos.nullable.apellidos,dates.Cliente.apellidos.nullable.java.lang.String,dates.Cliente.apellidos.nullable,cliente.apellidos.nullable.dates.Cliente.apellidos,cliente.apellidos.nullable.apellidos,cliente.apellidos.nullable.java.lang.String,cliente.apellidos.nullable,nullable.dates.Cliente.apellidos,nullable.apellidos,nullable.java.lang.String,nullable]; arguments [apellidos,class dates.Cliente]; default message [La propiedad [{0}] de la clase [{1}] no puede ser nulo]
+
+	at BootStrap$_closure1.doCall(BootStrap.groovy:20)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-06-30 01:05:46,081 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'dates.Cliente' on field 'apellidos': rejected value [null]; codes [dates.Cliente.apellidos.nullable.error.dates.Cliente.apellidos,dates.Cliente.apellidos.nullable.error.apellidos,dates.Cliente.apellidos.nullable.error.java.lang.String,dates.Cliente.apellidos.nullable.error,cliente.apellidos.nullable.error.dates.Cliente.apellidos,cliente.apellidos.nullable.error.apellidos,cliente.apellidos.nullable.error.java.lang.String,cliente.apellidos.nullable.error,dates.Cliente.apellidos.nullable.dates.Cliente.apellidos,dates.Cliente.apellidos.nullable.apellidos,dates.Cliente.apellidos.nullable.java.lang.String,dates.Cliente.apellidos.nullable,cliente.apellidos.nullable.dates.Cliente.apellidos,cliente.apellidos.nullable.apellidos,cliente.apellidos.nullable.java.lang.String,cliente.apellidos.nullable,nullable.dates.Cliente.apellidos,nullable.apellidos,nullable.java.lang.String,nullable]; arguments [apellidos,class dates.Cliente]; default message [La propiedad [{0}] de la clase [{1}] no puede ser nulo]
+
+	at BootStrap$_closure1.doCall(BootStrap.groovy:20)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-06-30 01:07:59,559 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: esp for class: BootStrap
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:53)
+	at org.codehaus.groovy.runtime.callsite.PogoGetPropertySite.getProperty(PogoGetPropertySite.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:307)
+	at BootStrap$_closure1.doCall(BootStrap.groovy:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1426)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1210)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1123)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1019)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1084)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1123)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1019)
+	at groovy.lang.Closure.call(Closure.java:426)
+	at groovy.lang.Closure.call(Closure.java:420)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at org.codehaus.groovy.grails.commons.DefaultGrailsBootstrapClass.callInit(DefaultGrailsBootstrapClass.java:60)
+	at org.codehaus.groovy.grails.web.context.GrailsConfigUtils.executeGrailsBootstraps(GrailsConfigUtils.java:78)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoaderListener.initWebApplicationContext(GrailsContextLoaderListener.java:110)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4992)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5490)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1565)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-06-30 01:07:59,661 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: esp for class: BootStrap
+	at BootStrap$_closure1.doCall(BootStrap.groovy:33)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-06-30 01:07:59,661 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: esp for class: BootStrap
+	at BootStrap$_closure1.doCall(BootStrap.groovy:33)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-06-30 01:07:59,662 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: esp for class: BootStrap
+	at BootStrap$_closure1.doCall(BootStrap.groovy:33)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-06-30 01:07:59,662 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: esp for class: BootStrap
+	at BootStrap$_closure1.doCall(BootStrap.groovy:33)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-06-30 01:07:59,662 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: esp for class: BootStrap
+	at BootStrap$_closure1.doCall(BootStrap.groovy:33)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
